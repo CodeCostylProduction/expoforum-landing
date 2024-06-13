@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Roboto-regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+    url("../assets/fonts/Roboto-Regular.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Roboto-thin";
+    font-style: normal;
+    src: local("Roboto"),
+    url("../assets/fonts/Roboto-Thin.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Roboto-medium";
+    font-style: normal;
+    src: local("Roboto"),
+    url("../assets/fonts/Roboto-Medium.ttf") format("truetype")
+}
+
+body {
+    font-family: "Roboto-regular", "Arial", sans-serif;
+}
